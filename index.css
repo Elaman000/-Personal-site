@@ -156,6 +156,7 @@ body{
         margin-right: -50px;
         width: 70vw;
         margin: auto;
+        letter-spacing: 0,5px;
     }
     .text_content .i_m, .famely {
         font-size: 6.5vw;
@@ -624,6 +625,7 @@ body{
         text-align: center;
         margin-top: 1.9vh;
         font-size: 2vw;
+        letter-spacing: 0,6px;
     }
     .text_content .i_m, .famely {
         font-size: 6.5vw;
@@ -1099,6 +1101,7 @@ body{
     }
     .mee{
         margin-top: 2vh;
+        letter-spacing: 0,7px;
     }
     .content{
         margin-top: 3vh;
