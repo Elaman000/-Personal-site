@@ -541,6 +541,8 @@ body{
         border: 0px solid white;
     }
     .basement-conteiner .txt{
+        border-left: 1px solid #E4E4E4;
+        padding-left: 3px;
         color: #E4E4E4;
         font-size: 18px;
         font-family: 'Saira Semi Condensed', sans-serif;
@@ -578,6 +580,10 @@ body{
     }
     .cursor-top{
         cursor: pointer;
+    }
+    .basement-conteiner .txt .aaa{
+        text-decoration: none;
+        color: #E4E4E4;
     }
 }
 /* #Ноутдук версион */
@@ -997,6 +1003,8 @@ body{
         border: 0px solid white;
     }
     .basement-conteiner .txt{
+        border-left: 1px solid #E4E4E4;
+        padding-left: 3px;
         color: #E4E4E4;
         font-size: 18px;
         font-family: 'Saira Semi Condensed', sans-serif;
@@ -1034,6 +1042,10 @@ body{
     }
     .cursor-top{
         cursor: pointer;
+    }
+        .basement-conteiner .txt .aaa{
+        text-decoration: none;
+        color: #E4E4E4;
     }
 }
 /* #Комаютерный версия */
@@ -1443,10 +1455,12 @@ body{
         align-items: flex-start;
         justify-content: space-evenly;
         width: auto;
-        height: 150px;
+        height: 180px;
         border: 0px solid white;
     }
     .basement-conteiner .txt{
+        border-left: 1px solid #E4E4E4;
+        padding-left: 3px;
         color: #E4E4E4;
         font-size: 18px;
         font-family: 'Saira Semi Condensed', sans-serif;
@@ -1485,6 +1499,9 @@ body{
     .cursor-top{
         cursor: pointer;
     }
-
+    .basement-conteiner .txt .aaa{
+        text-decoration: none;
+        color: #E4E4E4;
+    }
 
 }
