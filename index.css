@@ -100,6 +100,10 @@ body{
 }
 /* #Мобильный версия*/
 @media screen and (min-width: 0px) and (max-width: 768px){
+    .conteiner-coment{
+        width: 80%;
+        margin: auto;
+    }
     .heder{
         display: flex;
         justify-content: space-between;
@@ -620,6 +624,10 @@ body{
 }
 /* #Ноутдук версион */
 @media screen and (min-width: 768px) and (max-width: 992px){
+    .conteiner-coment{
+        width: 80%;
+        margin: auto;
+    }
     .heder{
         display: flex;
         justify-content: space-between;
@@ -1115,6 +1123,10 @@ body{
 }
 /* #Комаютерный версия */
 @media screen and (min-width: 992px) and (max-width: 30000px){ 
+    .conteiner-coment{
+        width: 80%;
+        margin: auto;
+    }
     .heder{
         display: flex;
         justify-content: space-between;
