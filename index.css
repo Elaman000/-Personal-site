@@ -999,7 +999,8 @@ body{
     }
 }
 /* #Комаютерный версия */
-@media screen and (min-width: 992px) and (max-width: 30000px){ 
+@media screen and (min-width: 992px) and (max-width: 30000px){
+    
     .conteiner-coment{
         width: 80%;
         margin: auto;
