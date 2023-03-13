@@ -19,7 +19,6 @@ for(const li of lii) {
     li.addEventListener('click', () => {
         clearActiveClasses()
         li.classList.add('box')
-
         let poiskIte = document.querySelectorAll('.blok')
         poiskIte.forEach(function(elem){
             if(elem.children[1].innerText === li.innerText || li.innerText === 'Everything'){
@@ -27,9 +26,7 @@ for(const li of lii) {
             }else{
                 elem.classList.add('hide')
             }
-        
         });
-
     })
 }
 

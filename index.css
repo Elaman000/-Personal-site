@@ -462,73 +462,6 @@ body{
     .reviews-conteiner{
         padding: 50px 0 100px 0;
     }
-    .user-box{
-        padding: 8px;
-        background-color: #2A2A2A;
-        margin: auto;
-        width: 80vw;
-        min-height: 100px;
-        height: auto;
-        border: 0px solid;
-        border-radius: 0.7em;
-        margin-top: 30px;
-    }
-    .user-box .left{
-        margin: 5px 5px;
-        width: 20%;
-        height: auto;
-        position: relative;
-    }
-    .user-box .left img{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%);
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        border: 1.5px solid #E4E4E4;
-    }
-    .user-box .right{
-        padding: 15px 0;
-        width: 90%;
-        height: auto;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-    }
-    .user-box .right .commit{
-        margin: auto;
-        width: 95%;
-        height: auto;
-        border: 0px solid;
-    }
-    .user-box .right .heder{
-        font-family: 'Saira Semi Condensed', sans-serif;
-        color: #E4E4E4;
-        font-size: 16px;
-        font-weight: 600;
-    }
-    .commit{
-        padding-top: 5px;
-        font-family: 'Saira Semi Condensed', sans-serif;
-        font-size: 12px;
-        color: #E4E4E4;
-    }
-    .star{
-        display: flex;
-        justify-content: flex-start;
-        border: 0px solid white;
-        width: 60%;
-    }
-    .star .fa{
-        margin: 0px 10px;
-        font-size: 10px;
-        color:rgb(216, 216, 0);
-    }
-    .user-box .right .heder, .star {
-        margin-left: 25%;
-    }
     .basement{
         width: auto;
         height: auto;
@@ -973,62 +906,6 @@ body{
     .reviews-conteiner{
         padding: 50px 0 100px 0;
     }
-    .user-box{
-        background-color: #2A2A2A;
-        margin: auto;
-        width: 80vw;
-        min-height: 100px;
-        height: auto;
-        border: 0px solid;
-        border-radius: 0.7em;
-        margin-top: 50px;
-        display: flex;
-    }
-    .user-box .left{
-        width: 10%;
-        height: auto;
-        position: relative;
-    }
-    .user-box .left img{
-        position: absolute;
-        top: 20px;
-        left: 50%;
-        transform: translate(-50%);
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        border: 1.5px solid #E4E4E4;
-    }
-    .user-box .right{
-        padding: 15px 0;
-        width: 90%;
-        height: auto;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-    }
-    .user-box .right div{
-        margin: auto;
-        width: 95%;
-        height: auto;
-        border: 0px solid;
-    }
-    .star .fa{
-        margin-left: 10px;
-        font-size: 12px;
-        color:rgb(216, 216, 0);
-    }
-    .user-box .right .heder{
-        font-family: 'Saira Semi Condensed', sans-serif;
-        color: #E4E4E4;
-        font-size: 24px;
-        font-weight: 600;
-    }
-    .commit{
-        font-family: 'Saira Semi Condensed', sans-serif;
-        font-size: 16px;
-        color: #E4E4E4;
-    }
     .basement{
         width: auto;
         height: auto;
@@ -1257,6 +1134,7 @@ body{
         padding: 4vh;
     }
     .content_center .span span{
+        margin-top: 5%;
         font-weight: 600;
         font-size: 48px;
         font-family: 'Saira Semi Condensed', sans-serif;
@@ -1321,6 +1199,7 @@ body{
         justify-content: center;
         color: #E4E4E4;
         font-size: 48px;
+        margin-top: 10%;
     }
     .me-text{
         position: relative;
@@ -1468,60 +1347,6 @@ body{
     }
     .reviews-conteiner{
         padding: 50px 0 100px 0;
-    }
-    .user-box{
-        background-color: #2A2A2A;
-        margin: auto;
-        width: 60vw;
-        min-height: 100px;
-        height: auto;
-        border: 0px solid;
-        border-radius: 0.7em;
-        margin-top: 50px;
-        display: flex;
-    }
-    .user-box .left{
-        width: 10%;
-        height: auto;
-        position: relative;
-    }
-    .user-box .left img{
-        position: absolute;
-        top: 14%;
-        left: 14%;
-        width: 80px;
-        height: 80px;
-        border-radius: 50%;
-        border: 1.5px solid #E4E4E4;
-    }
-    .user-box .right{
-        padding: 15px 0;
-        width: 90%;
-        height: auto;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-    }
-    .user-box .right div{
-        margin: auto;
-        width: 95%;
-        height: auto;
-        border: 0px solid;
-    }
-    .star .fa{
-        margin-left: 5px;
-        color:rgb(216, 216, 0);
-    }
-    .user-box .right .heder{
-        font-family: 'Saira Semi Condensed', sans-serif;
-        color: #E4E4E4;
-        font-size: 24px;
-        font-weight: 600;
-    }
-    .commit{
-        font-family: 'Saira Semi Condensed', sans-serif;
-        font-size: 16px;
-        color: #E4E4E4;
     }
 
     .basement{
