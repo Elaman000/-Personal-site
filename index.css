@@ -100,6 +100,10 @@ body{
 }
 /* #Мобильный версия*/
 @media screen and (min-width: 0px) and (max-width: 768px){
+    .bokc-raboty:hover{
+        transform: translate(0,-5px);
+        box-shadow: 0 0 10px #00C4F0;
+    }
     .conteiner-coment{
         width: 80%;
         margin: auto;
@@ -266,6 +270,7 @@ body{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
+        margin-bottom: 8vh;
     }
     .bokc-raboty{
         margin: 5px 8px;
@@ -275,6 +280,7 @@ body{
         position: relative;
         overflow: hidden;
         background-color: #2A2A2A;
+        transition: 0.5s;
     }
     .bokc-raboty img{
         width: 65px;
@@ -557,6 +563,10 @@ body{
 }
 /* #Ноутдук версион */
 @media screen and (min-width: 768px) and (max-width: 992px){
+    .bokc-raboty:hover{
+        transform: translate(0,-8px);
+        box-shadow: 0 0 10px #00C4F0;
+    }
     .conteiner-coment{
         width: 80%;
         margin: auto;
@@ -681,7 +691,6 @@ body{
         left: 10%;
     }
     .content_center{
-        padding-top: 8%;
         margin: auto;
         margin-top: 100px;
         margin-left: -10vw;
@@ -708,6 +717,7 @@ body{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
+        margin-bottom: 8vh;
     }
     .bokc-raboty{
         margin: 5px 8px;
@@ -717,6 +727,7 @@ body{
         position: relative;
         overflow: hidden;
         background-color: #2A2A2A;
+        transition: 0.5s;
     }
     .bokc-raboty img{
         width: 90px;
@@ -1000,7 +1011,7 @@ body{
 }
 /* #Комаютерный версия */
 @media screen and (min-width: 992px) and (max-width: 30000px){
-    
+
     .conteiner-coment{
         width: 80%;
         margin: auto;
@@ -1018,7 +1029,6 @@ body{
         transform: translate(-50%);
         width: 80vw;
         height: 400px;
-        /* background-color: antiquewhite; */
     }
     .razdel{
         display: flex;
@@ -1135,7 +1145,6 @@ body{
         padding: 4vh;
     }
     .content_center .span span{
-        margin-top: 5%;
         font-weight: 600;
         font-size: 48px;
         font-family: 'Saira Semi Condensed', sans-serif;
@@ -1149,6 +1158,7 @@ body{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
+        margin-bottom: 8vh;
     }
     .bokc-raboty{
         margin: 10px 10px;
@@ -1158,6 +1168,11 @@ body{
         position: relative;
         overflow: hidden;
         background-color: #2A2A2A;
+        transition: 0.5s;
+    }
+    .bokc-raboty:hover{
+        transform: translate(0,-10px);
+        box-shadow: 0 0 10px #00C4F0;
     }
     .bokc-raboty img{
         width: 120px;
@@ -1182,9 +1197,8 @@ body{
         max-width: 1400px;
         width: auto;
         height: 1150px;
-        border: 0px solid white;
         position: relative;
-        margin-top: 100px;
+        
     }
     .about-me .imgg{
         max-width: 100%;
@@ -1200,7 +1214,6 @@ body{
         justify-content: center;
         color: #E4E4E4;
         font-size: 48px;
-        margin-top: 10%;
     }
     .me-text{
         position: relative;
